@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Build step outputs
+build
+.happypack
+
+# Docker configuration
+Dockerfile
+Makefile
+docker-compose.yml
+
+# NPM dependencies
+node_modules
+
+# Other
+.editorconfig
+.ebextensions
+logging.conf
+.tools
+.nyc_output
+uploads
+publish.sh
+.idea
+designer
+
+
+# exclude the test file
+**/*.spec.js
+int-test
+.docs
+logs
+data
