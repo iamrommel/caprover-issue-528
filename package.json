@@ -1,0 +1,24 @@
+{
+  "name": "caprover-issue-528",
+  "version": "1.0.0",
+  "description": "A repository to replicate the environment variables with dash problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrommel/caprover-issue-528.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamrommel/caprover-issue-528/issues"
+  },
+  "homepage": "https://github.com/iamrommel/caprover-issue-528#readme",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0"
+  }
+}
